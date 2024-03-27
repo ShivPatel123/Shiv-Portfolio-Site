@@ -17,12 +17,12 @@ export default function About() {
 			<p className="font-medium mb-3">
 				Driven by a relentless pursuit of excellence, I am an aspiring software
 				engineer eager to make meaningful contributions in the technology
-				industry. Whether its projects, school work, or research, I'm fueled by
-				the excitement of problem-solving. My proactive approach to learning,
-				coupled with a strong foundation in programming languages and tools,
-				empowers me to tackle new challenges with confidence. With a keen eye
-				for detail and a commitment to continuous growth, I am excited about the
-				opportunities to innovate and create impactful solutions in the
+				industry. Whether its projects, school work, or research, I&apos;m
+				fueled by the excitement of problem-solving. My proactive approach to
+				learning, coupled with a strong foundation in programming languages and
+				tools, empowers me to tackle new challenges with confidence. With a keen
+				eye for detail and a commitment to continuous growth, I am excited about
+				the opportunities to innovate and create impactful solutions in the
 				ever-evolving field of technology.
 			</p>
 			<p className="font-medium mb-3">
