@@ -9,7 +9,10 @@ import { FaGithubSquare } from 'react-icons/fa';
 
 export default function Intro() {
 	return (
-		<section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+		<section
+			className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+			id="home"
+		>
 			<div className="flex items-center justify-center">
 				<div className="relative">
 					<motion.div
@@ -71,7 +74,7 @@ export default function Intro() {
 					<BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
 				</Link>
 				<a
-					className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-101 border border-black/10 hover:scale-110 active:scale-95 transition-all cursor-pointer"
+					className="group dark:bg-white/10 bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-101 border border-black/10 hover:scale-110 active:scale-95 transition-all cursor-pointer"
 					href="/Shivansh_Patel_Resume.pdf"
 					download
 				>
@@ -81,14 +84,14 @@ export default function Intro() {
 				<a
 					href="https://www.linkedin.com/in/shivpatel123/"
 					target="_blank"
-					className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.10] border border-black/10 hover:scale-[1.15] hover:text-gray-950 active:scale-95 transition-all cursor-pointer"
+					className="bg-white p-4 dark:bg-white/10 dark:text-white/60 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.10] border border-black/10 hover:scale-[1.15] hover:text-gray-950 active:scale-95 transition-all cursor-pointer"
 				>
 					<BsLinkedin />
 				</a>
 				<a
 					href="https://github.com/ShivPatel123"
 					target="_blank"
-					className="bg-white p-4 text-gray-700 text-[1.35rem] flex items-center gap-2 rounded-full focus:scale-[1.10] outline-none focus:scale-101 hover:text-gray-950 border hover:scale-[1.15] border-black/10 active:scale-95 transition-all cursor-pointer"
+					className="bg-white p-4 dark:bg-white/10 dark:text-white/60 text-gray-700 text-[1.35rem] flex items-center gap-2 rounded-full focus:scale-[1.10] outline-none focus:scale-101 hover:text-gray-950 border hover:scale-[1.15] border-black/10 active:scale-95 transition-all cursor-pointer"
 				>
 					<FaGithubSquare />
 				</a>

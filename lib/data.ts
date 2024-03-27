@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
 	{
-		title: 'Graduated bootcamp',
-		location: 'Miami, FL',
+		title: 'High School Degree',
+		location: 'Aurora, IL',
 		description:
-			'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
+			'I graduated high school with a 4.24 GPA, excelling clubs like robotics and math team.',
 		icon: React.createElement(LuGraduationCap),
-		date: '2019',
+		date: '2022',
 	},
 	{
-		title: 'Front-End Developer',
-		location: 'Orlando, FL',
+		title: 'Undergraduate Degree',
+		location: 'Ames, IA',
 		description:
-			'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
+			'I am currently studying computer engineering at Iowa State University, working with high levels of programming and software organizations along with lower levels of processors and computing.',
+		icon: React.createElement(LuGraduationCap),
+		date: '2022 - 2026',
+	},
+	{
+		title: 'Research Assistant, Bioinformatics',
+		location: 'Ames, IA',
+		description:
+			'I got the chance to work with the barley crop genome and utilize the R language to analyze protein interaction data.',
 		icon: React.createElement(CgWorkAlt),
-		date: '2019 - 2021',
-	},
-	{
-		title: 'Full-Stack Developer',
-		location: 'Houston, TX',
-		description:
-			"I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-		icon: React.createElement(FaReact),
-		date: '2021 - present',
+		date: '2022 - 2024',
 	},
 ] as const;
 
@@ -85,23 +85,17 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+	'Git',
+	'Python',
+	'Java',
+	'R',
+	'C',
 	'HTML',
 	'CSS',
 	'JavaScript',
-	'TypeScript',
 	'React',
-	'Next.js',
-	'Node.js',
-	'Git',
 	'Tailwind',
-	'Prisma',
-	'MongoDB',
-	'Redux',
-	'GraphQL',
-	'Apollo',
-	'Express',
-	'PostgreSQL',
-	'Python',
-	'Django',
-	'Framer Motion',
+	'MySQL',
+	'SpringBoot',
+	'Docker Engine',
 ] as const;
