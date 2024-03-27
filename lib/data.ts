@@ -79,7 +79,7 @@ export const projectsData = [
 		title: 'Twitter Giveaway Search',
 		description:
 			'Designed a system which pulls giveaway tweets related to a search query through the Tweepy API, automating the process of finding and participating in giveaways',
-		tags: ['Python', 'API Calls', 'OAuth'],
+		tags: ['Python', 'API Calls', 'RegEx'],
 		imageUrl: wordanalyticsImg,
 	},
 ] as const;
