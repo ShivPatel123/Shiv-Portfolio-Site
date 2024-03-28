@@ -35,7 +35,7 @@ export const links = [
 
 export const experiencesData = [
 	{
-		title: 'High School Degree',
+		title: 'High School Diploma',
 		location: 'Aurora, IL',
 		description:
 			'I graduated high school with a 4.24 GPA, excelling clubs like robotics and math team.',
