@@ -54,8 +54,8 @@ export default function Intro() {
 				<span className="font-bold">Hey, I&apos;m Shiv.</span> I&apos;m a
 				computer engineering student at Iowa State University. I am an{' '}
 				<span className="font-bold">aspiring software engineer</span> on a
-				journey to turn my{' '}
-				<span className="underline">aspirations into reality.</span>
+				journey to become a{' '}
+				<span className="underline">professional developer.</span>
 			</motion.h1>
 
 			<motion.div
