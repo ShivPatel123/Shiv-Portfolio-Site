@@ -51,12 +51,19 @@ export const experiencesData = [
 		date: '2022 - 2026',
 	},
 	{
-		title: 'Research Assistant, Bioinformatics',
+		title: 'Bioinformatics Research Assistant, USDA-ARS',
 		location: 'Ames, IA',
 		description:
 			'I got the chance to work with the barley crop genome and utilize the R language to analyze protein interaction data.',
 		icon: React.createElement(CgWorkAlt),
 		date: '2022 - 2024',
+	},
+	{
+		title: 'Software Developer Intern, Innergy',
+		description:
+			'Over the summer I got to work with Innergy as a junior software developer on our web based 3D modeling CAD software. This was my first experience with industry standard practices and software development tools!',
+		icon: React.createElement(CgWorkAlt),
+		date: '2024 - 2024',
 	},
 ] as const;
 
