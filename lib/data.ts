@@ -60,6 +60,7 @@ export const experiencesData = [
 	},
 	{
 		title: 'Software Developer Intern, Innergy',
+		location: 'Remote',
 		description:
 			'Over the summer I got to work with Innergy as a junior software developer on our web based 3D modeling CAD software. This was my first experience with industry standard practices and software development tools!',
 		icon: React.createElement(CgWorkAlt),
