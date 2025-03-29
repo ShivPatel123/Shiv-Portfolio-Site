@@ -31,6 +31,14 @@ export default function About() {
 				have high goals for myself, and I hope through consistent effort I can
 				achieve them.
 			</p>
+			<p className="font-medium mb-3">
+				As a part of my engineering curriculum at Iowa State University, I have
+				also made the following reflections on my coursework and schedule there:
+				General Education Reflection:
+				https://docs.google.com/document/d/1NV-6BtatIkw6iBxyjf0TDDhXWUI1ONwObAzv_74x-oY/edit?usp=sharing,
+				Cumulative Course Reflection:
+				https://docs.google.com/document/d/1DdaxwFYQtzYeahOlNQIxs-aEgGg-skdwuDnG8kN820o/edit?usp=sharing
+			</p>
 		</motion.section>
 	);
 }

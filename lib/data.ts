@@ -5,6 +5,7 @@ import { LuGraduationCap } from 'react-icons/lu';
 import corpcommentImg from '@/public/stockapp.png';
 import rmtdevImg from '@/public/rmtdev.png';
 import wordanalyticsImg from '@/public/wordanalytics.png';
+import realsense from '@/public/realsense.png';
 
 export const links = [
 	{
@@ -66,9 +67,24 @@ export const experiencesData = [
 		icon: React.createElement(CgWorkAlt),
 		date: '2024 - 2024',
 	},
+	{
+		title: 'Research Fellow, Boeing',
+		location: 'Ames, IA',
+		description:
+			'Currently working on a driving data collection project, utilizing Swift and mobile development tools to create a system for collecting and analyzing driving data.',
+		icon: React.createElement(CgWorkAlt),
+		date: '2024 - 2025',
+	},
 ] as const;
 
 export const projectsData = [
+	{
+		title: 'Senior Design Project',
+		description:
+			'Working to develop a machine learning hand tracking system with Intel RealSense technology to swipe through posters and images on a tv display without physically touching the screen. This project is a collaboration with the Iowa State University College of Design and the Department of Electrical and Computer Engineering. https://sddec25-02.sd.ece.iastate.edu/',
+		tags: ['Python, Ubuntu, CAD'],
+		imageUrl: realsense,
+	},
 	{
 		title: 'Paper Trading Investment App',
 		description:
