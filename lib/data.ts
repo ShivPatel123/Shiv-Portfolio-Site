@@ -81,8 +81,8 @@ export const projectsData = [
 	{
 		title: 'Senior Design Project',
 		description:
-			'Working to develop a machine learning hand tracking system with Intel RealSense technology to swipe through posters and images on a tv display without physically touching the screen. This project is a collaboration with the Iowa State University College of Design and the Department of Electrical and Computer Engineering. https://sddec25-02.sd.ece.iastate.edu/',
-		tags: ['Python, Ubuntu, CAD'],
+			'Developing a machine learning hand-tracking system for touchless navigation of posters and images on a TV display. A collaboration with ISU’s College of Design and ECpE Department. https://sddec25-02.sd.ece.iastate.edu/',
+		tags: ['Python, Ubuntu, CAD, Intel RealSense'],
 		imageUrl: realsense,
 	},
 	{

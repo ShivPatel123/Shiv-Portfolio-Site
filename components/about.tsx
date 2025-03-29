@@ -34,11 +34,25 @@ export default function About() {
 			<p className="font-medium mb-3">
 				As a part of my engineering curriculum at Iowa State University, I have
 				also made the following reflections on my coursework and schedule there:
-				General Education Reflection:
-				https://docs.google.com/document/d/1NV-6BtatIkw6iBxyjf0TDDhXWUI1ONwObAzv_74x-oY/edit?usp=sharing,
-				Cumulative Course Reflection:
-				https://docs.google.com/document/d/1DdaxwFYQtzYeahOlNQIxs-aEgGg-skdwuDnG8kN820o/edit?usp=sharing
 			</p>
+			<div className="flex flex-col space-y-2">
+				<a
+					href="https://docs.google.com/document/d/1NV-6BtatIkw6iBxyjf0TDDhXWUI1ONwObAzv_74x-oY/edit?usp=sharing"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="bg-blue-500 text-white px-4 py-2 rounded-md text-center hover:bg-blue-600 transition"
+				>
+					General Education Reflection
+				</a>
+				<a
+					href="https://docs.google.com/document/d/1DdaxwFYQtzYeahOlNQIxs-aEgGg-skdwuDnG8kN820o/edit?usp=sharing"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="bg-blue-500 text-white px-4 py-2 rounded-md text-center hover:bg-blue-600 transition"
+				>
+					Cumulative Course Reflection
+				</a>
+			</div>
 		</motion.section>
 	);
 }
