@@ -82,7 +82,7 @@ export const projectsData = [
 		title: 'Senior Design Project',
 		description:
 			'Developing a machine learning hand-tracking system for touchless navigation of posters and images on a TV display. A collaboration with ISU’s College of Design and ECpE Department. https://sddec25-02.sd.ece.iastate.edu/',
-		tags: ['Python, Ubuntu, CAD, Intel RealSense'],
+		tags: ['Python', 'Ubuntu', 'CAD', 'Intel RealSense'],
 		imageUrl: realsense,
 	},
 	{
