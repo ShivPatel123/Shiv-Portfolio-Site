@@ -35,7 +35,7 @@ export default function About() {
 				As a part of my engineering curriculum at Iowa State University, I have
 				also made the following reflections on my coursework and schedule there:
 			</p>
-			<div className="flex flex-col space-y-2">
+			{/* <div className="flex flex-col space-y-2">
 				<a
 					href="https://docs.google.com/document/d/1NV-6BtatIkw6iBxyjf0TDDhXWUI1ONwObAzv_74x-oY/edit?usp=sharing"
 					target="_blank"
@@ -52,7 +52,7 @@ export default function About() {
 				>
 					Cumulative Course Reflection
 				</a>
-			</div>
+			</div> */}
 		</motion.section>
 	);
 }
