@@ -36,28 +36,20 @@ export const links = [
 
 export const experiencesData = [
 	{
-		title: 'High School Diploma',
-		location: 'Aurora, IL',
+		title: 'IBM Software Developer Intern',
+		location: 'San Jose, CA',
 		description:
-			'I graduated high school with a 4.24 GPA, excelling clubs like robotics and math team.',
-		icon: React.createElement(LuGraduationCap),
-		date: '2022',
-	},
-	{
-		title: 'Undergraduate Degree',
-		location: 'Ames, IA',
-		description:
-			'I am currently studying computer engineering at Iowa State University, working with high levels of programming and software organizations along with lower levels of processors and computing.',
-		icon: React.createElement(LuGraduationCap),
-		date: '2022 - 2026',
-	},
-	{
-		title: 'Bioinformatics Research Assistant, USDA-ARS',
-		location: 'Ames, IA',
-		description:
-			'I got the chance to work with the barley crop genome and utilize the R language to analyze protein interaction data.',
+			"I modernized IBM Concert's GenAI chatbot by migrating to Model Context Protocol (MCP) and rebuilding it with LangChain/LangGraph, creating an intelligent agent with dynamic tool selection and multi-step reasoning that significantly improved response accuracy and enabled seamless third-party integrations. The solution, built on a Python/FastAPI and React stack with PostgreSQL, was containerized with Docker and deployed on OpenShift using Kubernetes, resulting in a production-ready demo that showcased advanced AI capabilities to enterprise clients.",
 		icon: React.createElement(CgWorkAlt),
-		date: '2022 - 2024',
+		date: 'Summer 2025',
+	},
+	{
+		title: 'Research Fellow, Boeing',
+		location: 'Ames, IA',
+		description:
+			'Currently working on a driving data collection project, utilizing Swift and mobile development tools to create a system for collecting and analyzing driving data.',
+		icon: React.createElement(CgWorkAlt),
+		date: '2024 - 2025',
 	},
 	{
 		title: 'Software Developer Intern, Innergy',
@@ -68,12 +60,20 @@ export const experiencesData = [
 		date: '2024 - 2024',
 	},
 	{
-		title: 'Research Fellow, Boeing',
+		title: 'Bioinformatics Research Assistant, USDA-ARS',
 		location: 'Ames, IA',
 		description:
-			'Currently working on a driving data collection project, utilizing Swift and mobile development tools to create a system for collecting and analyzing driving data.',
+			'I got the chance to work with the barley crop genome and utilize the R language to analyze protein interaction data.',
 		icon: React.createElement(CgWorkAlt),
-		date: '2024 - 2025',
+		date: '2022 - 2024',
+	},
+	{
+		title: 'Undergraduate Degree',
+		location: 'Ames, IA',
+		description:
+			'I am currently studying computer engineering at Iowa State University, working with high levels of programming and software organizations along with lower levels of processors and computing.',
+		icon: React.createElement(LuGraduationCap),
+		date: '2022 - 2026',
 	},
 ] as const;
 
